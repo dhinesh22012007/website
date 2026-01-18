@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mystery Number Challenge</title>
+    <link rel="icon" type="image/png" href="../image/images.jpeg">
+
+
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+    <h1 class="title">𝐌𝐲𝐬𝐭𝐞𝐫𝐲 𝐍𝐮𝐦𝐛𝐞𝐫 𝐂𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞</h1>
+    <img id="think1" src="../image/logo.png" alt="" width="600px" height="600px">
+    <img id="think2" src="../image/think1.png" alt="">
+
+    <h3><a href="instruction.html">Instruction</a></h3>
+    <button id="muteBtn">🔊 Sound ON</button>
+
+    <audio id="winsound" src="../music/pika_pika.mp3"></audio>
+    <audio id="losesound" src="../music/obito.mp3"></audio>
+    <div class="a">
+        <h1 id="head">Guess the Number (1–10)</h1>
+
+        <input id="input" type="number"  placeholder="Enter number" >
+        <button id="btn" onclick="check()">Check</button>
+        
+        <p id="para">Start guessing...</p>
+        <p id="sc">Life: 3</p>
+
+    </div>
+    <footer><p>🎮 Game Designed & Developed by Dhinesh | Mystery Number Challenge</p></footer>
+    
+    <script src="../javascript/script.js"></script>
+</body>
+</html>
